@@ -13,9 +13,10 @@
         android:layout_height="0dp"
         android:layout_marginTop="32dp"
         android:layout_marginBottom="32dp"
+        android:adjustViewBounds="true"
         android:background="@android:color/darker_gray"
         android:contentDescription="@string/image_description"
-        android:scaleType="centerCrop"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -80,4 +81,5 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_end="150dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
